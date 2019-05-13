@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Борисова Ксения](https://up.htmlacademy.ru/htmlcss/25/user/1072329).
-* Наставник: `Неизвестно`.
+* Наставник: [Остаповец Сергей](https://htmlacademy.ru/profile/seraphim). 
 
 ---
 
