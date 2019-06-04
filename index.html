@@ -38,10 +38,25 @@
         <section class="advantages"> Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон 
         </section>
         
-      <section class="offers">
+      <section class="accomodation">
         <h2>Заинтересовались?</h2>
-        <p class="accommodation-search">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <p class="accomodation-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <form class="accomodation-form" action="#" method="post">
+          <fieldset>
+            <legend>Поиск гостиницы в Седоне</legend>
+          <label for="arrival-date"> Дата заезда: </label>
+            <input type="text" name="date" id="arrival-date" placeholder="24 апреля 2017">
+            <label for="departure-date"> Дата выезда: </label>
+            <input type="text" name="date" id="departure-date"  placeholder="4 июля 2017">
+            <label for="adults-amount">Взрослые</label> 
+           0 <input type="range" name="adults" id="adults-amount" min="0"
+            max="n" step="1"> n
         
+          <label for="children-amount">Дети</label>
+           0 <input type="range" name="children" id="children-amount" min="0" max="n" step="1" value="0"> n
+          </fieldset>
+          <input type="submit" value="найти">
+        </form>
       </section>
     </main>
     <footer class="main-footer">
@@ -50,15 +65,15 @@
       <div class="social-networks">
         <ul>
           <li class="social-network">
-            <a class="social-button" href="twitter.html">
+            <a class="social-button" href="twitter.html" aria-label="Седона в Твиттере" >
             </a>
           </li>
           <li class="social-network">
-            <a class="social-button" href="facebook.html">
+            <a class="social-button" href="facebook.html" aria-label="Седона на Фейсбуке">
             </a>
           </li>
           <li class="social-network">
-            <a class="social-button" href="youtube.html">
+            <a class="social-button" href="youtube.html" aria-label="Седона на Ютубе">
             </a>
           </li>
         </ul>
